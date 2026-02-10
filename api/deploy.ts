@@ -8,7 +8,7 @@ import {
   getTemplateIndexHTML,
   getTemplateIndexCSS,
   readTemplateFile,
-} from './template-files';
+} from './template-files.js';
 
 interface DeployRequestBody {
   dataTs: string;

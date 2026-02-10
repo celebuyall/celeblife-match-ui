@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import {
   FOOD_EXTRACT_SYSTEM_PROMPT,
   buildFoodExtractPrompt,
-} from './food-extract';
+} from './food-extract.js';
 
 export default async function handler(
   req: VercelRequest,
