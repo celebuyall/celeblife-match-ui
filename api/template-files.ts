@@ -65,6 +65,7 @@ export const TEMPLATE_TSCONFIG = JSON.stringify({
     noEmit: true,
     jsx: 'react-jsx',
     strict: true,
+    noImplicitAny: false,
     noUnusedLocals: false,
     noUnusedParameters: false,
     noFallthroughCasesInSwitch: true,
