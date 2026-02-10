@@ -17,6 +17,7 @@ interface DeployRequestBody {
     platform: string;
     profileUrl: string;
     category: string;
+    theme: string;
     productStoreUrl: string;
     campaignPlanUrl: string;
     channelReportUrl: string;
