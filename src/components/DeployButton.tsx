@@ -9,6 +9,7 @@ interface Metadata {
   platform: 'instagram' | 'youtube';
   profileUrl: string;
   category: '일반' | '뷰티' | '푸드';
+  theme: '뷰티' | '푸드';
   productStoreUrl: string;
   campaignPlanUrl: string;
   channelReportUrl: string;
